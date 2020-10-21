@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Simple Quiz</title>
+        <meta name="description" content="Simple Quiz">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <!-- Fallback for everything else -->
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+        <!--
+            Chrome 31+ has home screen icon 192×192 (the recommended size for multiple resolutions).
+            If it’s not defined on that size it will take 128×128.
+        -->
+        <link rel="icon" sizes="192x192" href="img/touch/touch-icon-192x192.png">
+        <link rel="icon" sizes="128x128" href="img/touch/touch-icon-128x128.png">
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+
+    <body>
+        <h1>Quiz</h1>
+        <div id="counter"></div>
+        <div class="quiz-container">            
+            <div id="quiz"></div>
+        </div>
+        <button id="previous">Previous Question</button>
+        <button id="next">Next Question</button>
+        <button id="submit">Submit Quiz</button>
+        <div id="results"></div>
+
+        <script type="text/javascript" src="quiz.js"></script>
+    </body>
+
+
+</html>
